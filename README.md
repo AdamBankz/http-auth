@@ -15,6 +15,6 @@ The generated JWT strings serve as cryptographic evidence that the request made 
 
 
 #
-To-Do:
-- Create a live demo website
-- Use javascript for generation instead of an endpoint+
+**To-Do:** <br>
+Create a live demo website<br>
+Use javascript for generation instead of an endpoint
