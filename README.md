@@ -11,3 +11,10 @@ The generated JWT strings serve as cryptographic evidence that the request made 
 <br>
 
 **I believe that this simple auth project is enough for a small or medium website to secure their endpoints from bots.**
+
+
+
+#
+To-Do:
+- Create a live demo website
+- Use javascript for generation instead of an endpoint+
