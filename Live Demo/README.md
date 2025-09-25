@@ -5,3 +5,26 @@ For an easy, non-technical demo, visit this [Vercel site,](https://http-auth-web
 
 ## 2. API Demo
 For a technical demo, you can call the endpoints below to generate & validate any tokens. 
+```py
+
+data = {
+  "browserInfo": "....." # Browser Fingerprint
+  }
+
+requests.post("https://http-auth-website.vercel.app/api/generate", json=data)
+
+# Response:
+{"token": "...."}
+```
+
+```py
+data = {
+  "token": "....."
+  }
+
+requests.post("https://http-auth-website.vercel.app/api/validate", json=data)
+
+# Response:
+{"success": "valid"}
+{"success": "invalid"}
+```
